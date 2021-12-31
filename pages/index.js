@@ -1,82 +1,84 @@
 import Head from 'next/head'
 
+import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+import Step from '../components/Step';
+import BottomLead from '../components/BottomLead';
+import Footer from '../components/Footer';
+
 export default function Home() {
+  const data = {
+    links: {
+      playStore: 'https://play.google.com/store/apps/details?id=com.hevelmc.secret_friend_flutter',
+      login: 'https://app.secretfriend.fr',
+      appStore: 'https://apps.apple.com/us/app/secretfriend/id1590651048'
+    },
+    hero: {
+      appType: 'SECRET-FRIEND',
+      tagLine: 'REMETTRE L’HUMAIN AU CENTRE DE VOTRE ENTREPRISE',
+      description: '‟ Utilisez SecretFriend et encouragez les actes bienveillants entre collaborateurs ”',
+    },
+    bottomLead: {
+      actionText: "Téléchargez l'application dès maintenant",
+      description: 'Disponible dans votre store préféré ou bien en ligne',
+    },
+  }
+
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Secret Friend</title>
+        <link rel="shortcut icon" href="/assets/favicon.ico" />
       </Head>
+      <div className="box-border">
+        <div className="flex flex-col">
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
+          <Navbar logo="/assets/logo.png" />
+          <Hero
+            appType={data.hero.appType}
+            tagLine={data.hero.tagLine}
+            description={data.hero.description}
+            playStoreLink={data.links.playStore}
+            loginLink={data.links.login}
+            appStoreLink={data.links.appStore}
+          />
 
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/index.js
-          </code>
-        </p>
+          <div id="divider" className="rounded-full ring-2 ring-gray-200 lg:w-1/2 lg:mx-auto "></div>
 
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
+          <div id="faq" className="pt-20 mb-20 text-3xl font-semibold text-center text-slate-800 lg:font-bold">Notre concept</div>
+          <ul className="mx-auto pb-16 text-2xl w-2/3 lg:w-1/2" style={{ listStyleType: "'★ '" }}>
+            <li className="pb-4 text-center">
+              Notre solution invite les collaborateurs à activer la bienveillance qui sommeille en eux et à la manifester par des actes prévenants.
+            </li>
+            <li className='text-center'>
+              SECRET FRIEND libère les freins à la bienveillance par des encouragements dynamiques, ludiques et variés.
+            </li>
+          </ul>
 
-          <a
-            href="https://nextjs.org/learn"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
+          <div className='container flex flex-wrap justify-center mx-auto rounded-full bg-white max-width-xl pb-20 gap-8'>
+            <div className='max-w-sm bg-white shadow-lg rounded-xl grid items-center gap-6 p-2'>
+              <img className='mx-auto stroke-secondary-500' src="/assets/wings.svg" width="180" height="90" />
+              <p className='text-center w-64 mx-auto font-bold text-secondary-500'>Chaque participant est choyé par un « Ange Gardien »</p>
+            </div>
+            <div className='max-w-sm bg-white shadow-lg rounded-xl grid items-center gap-6 p-2'>
+              <img className='mx-auto fill-secondary-500' src="/assets/shield.svg" width="90" height="90" />
+              <p className='text-center w-64 mx-auto font-bold text-secondary-500'>Il est en même temps l'Ange Gardien de quelqu'un d'autre</p>
+            </div>
+          </div>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
+          <div id="divider" className="rounded-full ring-2 ring-gray-200 lg:w-1/2 lg:mx-auto "></div>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <BottomLead
+            actionText={data.bottomLead.actionText}
+            description={data.bottomLead.description}
+            playStoreLink={data.links.playStore}
+            loginLink={data.links.login}
+            appStoreLink={data.links.appStore}
+          />
+
+          <Footer logo="/assets/logo.png" />
         </div>
-      </main>
-
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
-        </a>
-      </footer>
+      </div>
     </div>
-  )
+  );
 }
