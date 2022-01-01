@@ -29,6 +29,8 @@ export default function Home() {
       <Head>
         <title>Secret Friend</title>
         <link rel="shortcut icon" href="/assets/favicon.ico" />
+        {/* Fix for mobile */}
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <div className="box-border">
         <div className="flex flex-col">
