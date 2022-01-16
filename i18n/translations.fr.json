@@ -1,0 +1,30 @@
+{
+    "hero": {
+        "appType": "SECRET FRIEND",
+        "tagLine": "Remettre l'humain au centre de votre entreprise",
+        "description": "Secret Friend encourage les actes bienveillants entre collaborateurs"
+    },
+    "bottomLead": {
+        "actionText": "Téléchargez l'application dès maintenant",
+        "description": "Disponible dans votre store préféré ou bien en ligne"
+    },
+    "step1": {
+        "title": "EXPÉRIENCE PROTÉGÉ",
+        "description": "Partage son état d'esprit avec une personne disposée à l'écouter\nRessent une présence protectrice\nÉprouve de la reconnaissance et des encouragements\nVie des moments de surprise et de joie"
+    },
+    "step2": {
+        "title": "EXPÉRIENCE ANGE GARDIEN",
+        "description": "Prend des nouvelles de son protégé à travers l'application\nRelève des défis de bienveillance\nPrends des initiatives\nGagne des points et des récompenses"
+    },
+    "step3": {
+        "title": "EXPÉRIENCE MANAGER",
+        "description": "Mesure l'intelligence comportementale de ses collaborateurs\nIdentifie des compétences cachées\nDélègue la diffusion des petits gestes au quotidien\nFacilite le décloisonnement des services\nObtient un engagement renforcé\nDispose d'un outil d'alerte des situations de souffrance"
+    },
+    "concept": {
+        "title": "Les 3 minutes par jour qui changent votre façon de voir le monde",
+        "desc1": "Notre concept invite les collaborateurs à activer la bienveillance qui sommeille en eux et à la manifester par des actes prévenants.",
+        "desc2": "Secret Friend libère les freins à la bienveillance par des encouragements dynamiques, ludiques et variés.",
+        "protege": "Chaque participant est \nchoyé par un « Ange Gardien »",
+        "angel": "Chaque participant est en même temps l'Ange Gardien de quelqu'un d'autre"
+    }
+}
