@@ -16,7 +16,7 @@ const Footer = ({logo}) => {
         </a>
       </div>
       <div className="flex-1 mt-10 text-lg text-slate-800 lg:mt-0 text-center">
-          Copyright {new Date().getFullYear()} - Andralude
+          Copyright {new Date().getFullYear()} - <a className="text-secondary-500 underline underline-offset-3" href="https://www.andralude.com/" target="_blank">Andralude</a>
       </div>
     </div>
   );

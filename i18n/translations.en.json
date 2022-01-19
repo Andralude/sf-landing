@@ -1,30 +1,29 @@
 {
     "hero": {
-        "appType": "SECRET FRIEND",
         "tagLine": "Give everyone the opportunity to offer their best",
-        "description": "Secret Friend encourages acts of kindness between employees"
+        "description": "Secret Friend encourages acts of kindness between your employees"
     },
     "bottomLead": {
         "actionText": "Download the application today",
         "description": "Available online or in your favorite store"
     },
     "step1": {
-        "title": "PROTÉGÉ EXPERIENCE",
-        "description": "Shares his state of mind with someone who is willing to listen\nFeels a protective presence\nFeels gratitude and encouragement\nExperiences moments of surprise and joy"
+        "title": "Benefits for the protégé",
+        "description": "To share his state of mind with someone who is willing to listen\nTo feel a protective presence\nTo feel gratitude and encouragement\nTo experience moments of surprise and joy"
     },
     "step2": {
-        "title": "GUARDIAN ANGEL EXPERIENCE",
-        "description": "Gets informed about your protégé through the application\nTakes on benevolent challenges\nTakes initiative\nEarns points and rewards"
+        "title": "Benefits for the guardian angel",
+        "description": "To get informed about your protégé through the application\nTo take on benevolent challenges\nTo take initiative\nTo earn points and rewards"
     },
     "step3": {
-        "title": "MANAGER EXPERIENCE",
-        "description": "Measures the behavioral intelligence of its employees\nIdentifies hidden skills\nDelegates the distribution of small daily practices\nFacilitates the decompartmentalization of services\nGets a stronger involvement in the company\nGet an alert tool for situations of suffering"
+        "title": "Benefits for the manager",
+        "description": "To measure the behavioral intelligence of its employees\nTo identifie hidden skills\nTo delegate the distribution of small daily practices\nTo facilitate the decompartmentalization of services\nTo get a stronger involvement in the company\nTo get an alert tool for situations of suffering"
     },
     "concept": {
         "title": "The 3 minutes a day that change the way you see the world",
         "desc1": "Our concept invites employees to bring out the goodness in them and to show it through caring actions.",
         "desc2": "Secret Friend breaks down the barriers to goodwill with dynamic, playful and varied encouragement.",
-        "protege": "Each participant is cared for\n by a « Guardian Angel »",
-        "angel": "Each participant is at the same time the Guardian Angel of someone else"
+        "protege": "Each participant is cared for\n by a Guardian Angel",
+        "angel": "Each participant is at the same time\nthe Guardian Angel of someone else"
     }
 }

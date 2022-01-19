@@ -1,15 +1,12 @@
 import LinkButtons from "./LinkButtons";
 
 
-const Hero = ({appType, tagLine, description, playStoreLink, loginLink, appStoreLink}) => {
+const Hero = ({tagLine, description, playStoreLink, loginLink, appStoreLink}) => {
   return (
     <div id="product">
       <div style={{textShadow:'0px 1px 1px gray'}} className="flex flex-col items-center justify-start font-sans min-h-96 bg-gray-50 lg:pt-10 lg:pb-20 lg:bg-hero lg:bg-cover">
         <div>
-          <p className="p-3 pt-12 text-lg font-bold text-gray-500 lg:text-gray-300 titlefont">{appType}</p>
-        </div>
-        <div>
-          <p className="p-2 text-4xl font-bold text-center text-slate-800 lg:mx-auto lg:w-4/6 lg:text-5xl lg:text-gray-100 titlefont">
+          <p className="p-2 mt-16 text-4xl font-bold text-center text-slate-800 lg:mx-auto lg:w-4/6 lg:text-5xl lg:text-gray-100 titlefont">
             {tagLine}
           </p>
         </div>

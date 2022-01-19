@@ -31,7 +31,6 @@ export default function Home() {
           <Navbar logo="/assets/logo.png" />
           <section id="hero">
             <Hero
-              appType={t("hero.appType")}
               tagLine={t("hero.tagLine")}
               description={t("hero.description")}
               playStoreLink={data.links.playStore}
@@ -47,11 +46,11 @@ export default function Home() {
             {t("concept.title")}
           </div>
 
-            <ul className="mx-auto pb-16 text-2xl w-2/3 lg:w-1/2" style={{ listStyleType: "'★ '" }}>
-              <li className="pb-4 text-center titlefont">
+            <ul className="mx-auto pb-16 text-2xl w-5/6 sm:w-2/3 lg:w-1/2" style={{ listStyleType: "'★ '" }}>
+              <li className="pb-4 text-justify titlefont" style={{textJustify: "distribute"}}>
                 {t("concept.desc1")}
               </li>
-              <li className='text-center titlefont'>
+              <li className='text-justify titlefont'  style={{textJustify: "distribute"}}>
                 {t("concept.desc2")}
               </li>
             </ul>
