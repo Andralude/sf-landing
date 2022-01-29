@@ -1,29 +1,29 @@
 {
     "hero": {
-        "tagLine": "Give everyone the opportunity to offer their best",
-        "description": "Secret Friend encourages acts of kindness between your employees"
+        "tagLine": "Become a human-centered company\n",
+        "description": "With Secret Friend, encourage acts of kindness among your employees"
     },
     "bottomLead": {
         "actionText": "Download the application today",
         "description": "Available online or in your favorite store"
     },
     "step1": {
-        "title": "Benefits for the protégé",
-        "description": "To share his state of mind with someone who is willing to listen\nTo feel a protective presence\nTo feel gratitude and encouragement\nTo experience moments of surprise and joy"
+        "title": "Benefits for Protégés",
+        "description": "Sharing their state of mind with concerned and listening people\nFeeling a protective presence\nFeeling gratitude and encouragement\nExperiencing moments of surprise and joy"
     },
     "step2": {
-        "title": "Benefits for the guardian angel",
-        "description": "To get informed about your protégé through the application\nTo take on benevolent challenges\nTo take initiative\nTo earn points and rewards"
+        "title": "Benefits for Guardian Angels",
+        "description": "Discovering your protégé through the application\nTaking on Kindness Challenges\nTaking initiative\nEarning points and rewards"
     },
     "step3": {
-        "title": "Benefits for the manager",
-        "description": "To measure the behavioral intelligence of its employees\nTo identifie hidden skills\nTo delegate the distribution of small daily practices\nTo facilitate the decompartmentalization of services\nTo get a stronger involvement in the company\nTo get an alert tool for situations of suffering"
+        "title": "Benefits for the managers",
+        "description": "Determining the relational intelligence of their employees\nIdentifying hidden skills\nSpreading small daily practices and attention among teams\nBreaking down the barriers between departments\nReinforcing employees involvement in the company\nGetting an alert tool for tough situations of suffering"
     },
     "concept": {
-        "title": "The 3 minutes a day that change the way you see the world",
-        "desc1": "Our concept invites employees to bring out the goodness in them and to show it through caring actions.",
-        "desc2": "Secret Friend breaks down the barriers to goodwill with dynamic, playful and varied encouragement.",
-        "protege": "Each participant is cared for\n by a Guardian Angel",
+        "title": "The 3 minutes a day change your way of seeing the world",
+        "desc1": "With our concept, let your employees shine and share their kindness",
+        "desc2": "Secret Friend breaks down the barriers through benevolence and dynamic and fun Kindness Challenges",
+        "protege": "Each participant is pampered\n by a Guardian Angel",
         "angel": "Each participant is at the same time\nthe Guardian Angel of someone else"
     }
 }
