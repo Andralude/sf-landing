@@ -8,7 +8,7 @@ const Step = ({title, description, img, alternate}) => {
             <p className="pb-5 text-2xl font-semibold text-center md:mx-auto text-secondary-400 lg:pb-0 lg:-mb-3 lg:text-lg underline underline-offset-auto whitespace-pre-wrap lg:font-bold">{title}</p>
             <ul className="mx-auto pb-4 text-2xl w-fit mt-4 lg:mt-8" style={{ listStyleType: "'★ '" }}>
               {description.split('\n').map(s =>
-              <li className="pb-2 text-left titlefont text-slate-800 w-fit">
+              <li className="pb-2 text-left titlefont text-slate-800 w-fit" key={s}>
                 {s}
               </li>
               )}
