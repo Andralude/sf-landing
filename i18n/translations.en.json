@@ -1,29 +1,44 @@
 {
-    "hero": {
-        "tagLine": "Become a human-centered company\n",
-        "description": "With Secret Friend, encourage acts of kindness among your employees"
-    },
-    "bottomLead": {
-        "actionText": "Download the application today",
-        "description": "Available online or in your favorite store"
-    },
-    "step1": {
-        "title": "Benefits for Protégés",
-        "description": "Sharing their state of mind with concerned and listening people\nFeeling a protective presence\nFeeling gratitude and encouragement\nExperiencing moments of surprise and joy"
-    },
-    "step2": {
-        "title": "Benefits for Guardian Angels",
-        "description": "Discovering your protégé through the application\nTaking on Kindness Challenges\nTaking initiative\nEarning points and rewards"
-    },
-    "step3": {
-        "title": "Benefits for the managers",
-        "description": "Determining the relational intelligence of their employees\nIdentifying hidden skills\nSpreading small daily practices and attention among teams\nBreaking down the barriers between departments\nReinforcing employees involvement in the company\nGetting an alert tool for tough situations of suffering"
-    },
-    "concept": {
-        "title": "3 minutes a day change your way of seeing the world",
-        "desc1": "With our concept, let your employees shine and share their kindness",
-        "desc2": "Secret Friend breaks down the barriers through benevolence and fun and dynamic Kindness Challenges",
-        "protege": "Each participant is pampered\n by a Guardian Angel",
-        "angel": "Each participant is at the same time\nthe Guardian Angel of someone else"
-    }
+  "hero": {
+    "tagLine": "Become a human-centered company\n",
+    "description": "With Secret Friend, encourage acts of kindness among your employees"
+  },
+  "bottomLead": {
+    "actionText": "Download the application today",
+    "description": "Available online or in your favorite store"
+  },
+  "step1": {
+    "title": "Benefits for Protégés",
+    "description": "Sharing their state of mind with concerned and listening people\nFeeling a protective presence\nFeeling gratitude and encouragement\nExperiencing moments of surprise and joy"
+  },
+  "step2": {
+    "title": "Benefits for Guardian Angels",
+    "description": "Discovering your protégé through the application\nTaking on Kindness Challenges\nTaking initiative\nEarning points and rewards"
+  },
+  "step3": {
+    "title": "Benefits for the managers",
+    "description": "Determining the relational intelligence of their employees\nIdentifying hidden skills\nSpreading small daily practices and attention among teams\nBreaking down the barriers between departments\nReinforcing employees involvement in the company\nGetting an alert tool for tough situations of suffering"
+  },
+  "concept": {
+    "title": "3 minutes a day change your way of seeing the world",
+    "desc1": "With our concept, let your employees shine and share their kindness",
+    "desc2": "Secret Friend breaks down the barriers through benevolence and fun and dynamic Kindness Challenges",
+    "protege": "Each participant is pampered\n by a Guardian Angel",
+    "angel": "Each participant is at the same time\nthe Guardian Angel of someone else"
+  },
+  "rgpd-delete": {
+    "privacyPolicy": "Privacy Policy",
+    "personalDataDeletion": "Deletion of Your Personal Data",
+    "gdprComplianceIntro": "As part of our commitment to respecting your privacy and in compliance with the General Data Protection Regulation (GDPR), here is the procedure to follow to request the deletion of your personal data on the Secret Friend platform.",
+    "deletionStepsIntro": "To request the deletion of your data, please follow these steps:",
+    "emailDeletionRequest": "Send us an email at contact@andralude.com from the email address used to create your account on Secret Friend. Your request must clearly indicate your desire for the deletion of your personal data.",
+    "identityVerification": "Attach to your email a proof of identity to confirm that you are indeed the owner of the concerned account. This measure is necessary to prevent any unauthorized action on your account.",
+    "dataDeletionScope": "Data subject to deletion:",
+    "savedPersonalInfo": "Saved personal information: This includes your first name, last name, email, company, gender, hobbies, and profession.",
+    "sentMessages": "Sent messages: All messages you have sent during discussions in the app.",
+    "importedMedia": "Imported documents and media: Profile photos and all attachments that you have imported into the app.",
+    "identityProofData": "Information provided for identity proof: The data you provide as part of your deletion request will also be erased once the process is completed.",
+    "processingTime": "Processing time:",
+    "deletionConfirmation": "We commit to performing the deletion of your data within a period of 30 days from the receipt of your complete and validated request. Once the deletion is performed, we will send you a confirmation by email."
+  }
 }

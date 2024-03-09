@@ -1,29 +1,44 @@
 {
-    "hero": {
-        "tagLine": "Remettre l'humain au centre de votre entreprise",
-        "description": "Secret Friend encourage les actes bienveillants entre vos collaborateurs"
-    },
-    "bottomLead": {
-        "actionText": "Téléchargez l'application dès maintenant",
-        "description": "Disponible dans votre store préféré ou bien en ligne"
-    },
-    "step1": {
-        "title": "Bénéfices pour le protégé",
-        "description": "Partager son état d'esprit avec une personne disposée à l'écouter\nRessentir une présence protectrice\nÉprouver de la reconnaissance et recevoir des encouragements\nVivre des moments de surprise et de joie"
-    },
-    "step2": {
-        "title": "Bénéfices pour l'ange gardien",
-        "description": "Découvrir son protégé à travers l'application\nRelever des défis de bienveillance\nPrendre des initiatives\nGagner des points et des récompenses"
-    },
-    "step3": {
-        "title": "Bénéfices pour le manager",
-        "description": "Mesurer l'intelligence relationnelle de ses collaborateurs\nIdentifier des compétences cachées\nDéléguer la diffusion des petits gestes au quotidien\nFaciliter le décloisonnement des services\nObtenir un engagement renforcé\nDisposer d'un outil d'alerte des situations de souffrance"
-    },
-    "concept": {
-        "title": "Les 3 minutes par jour qui changent votre façon de voir le monde",
-        "desc1": "Notre concept invite les collaborateurs à activer la bienveillance qui sommeille en eux et à la manifester par des actes prévenants.",
-        "desc2": "Secret Friend libère les freins par des encouragements dynamiques, ludiques et variés.",
-        "protege": "Chaque participant est \nchoyé par un Ange Gardien",
-        "angel": "Chaque participant est en même temps\nl'Ange Gardien de quelqu'un d'autre"
-    }
+  "hero": {
+    "tagLine": "Remettre l'humain au centre de votre entreprise",
+    "description": "Secret Friend encourage les actes bienveillants entre vos collaborateurs"
+  },
+  "bottomLead": {
+    "actionText": "Téléchargez l'application dès maintenant",
+    "description": "Disponible dans votre store préféré ou bien en ligne"
+  },
+  "step1": {
+    "title": "Bénéfices pour le protégé",
+    "description": "Partager son état d'esprit avec une personne disposée à l'écouter\nRessentir une présence protectrice\nÉprouver de la reconnaissance et recevoir des encouragements\nVivre des moments de surprise et de joie"
+  },
+  "step2": {
+    "title": "Bénéfices pour l'ange gardien",
+    "description": "Découvrir son protégé à travers l'application\nRelever des défis de bienveillance\nPrendre des initiatives\nGagner des points et des récompenses"
+  },
+  "step3": {
+    "title": "Bénéfices pour le manager",
+    "description": "Mesurer l'intelligence relationnelle de ses collaborateurs\nIdentifier des compétences cachées\nDéléguer la diffusion des petits gestes au quotidien\nFaciliter le décloisonnement des services\nObtenir un engagement renforcé\nDisposer d'un outil d'alerte des situations de souffrance"
+  },
+  "concept": {
+    "title": "Les 3 minutes par jour qui changent votre façon de voir le monde",
+    "desc1": "Notre concept invite les collaborateurs à activer la bienveillance qui sommeille en eux et à la manifester par des actes prévenants.",
+    "desc2": "Secret Friend libère les freins par des encouragements dynamiques, ludiques et variés.",
+    "protege": "Chaque participant est \nchoyé par un Ange Gardien",
+    "angel": "Chaque participant est en même temps\nl'Ange Gardien de quelqu'un d'autre"
+  },
+  "rgpd-delete": {
+    "privacyPolicy": "Politique de Confidentialité",
+    "personalDataDeletion": "Suppression de vos données personnelles",
+    "gdprComplianceIntro": "Dans le cadre de notre engagement à respecter votre vie privée et en conformité avec le Règlement Général sur la Protection des Données (RGPD), voici la procédure à suivre pour demander la suppression de vos données personnelles sur la plateforme Secret Friend.",
+    "deletionStepsIntro": "Pour demander la suppression de vos données, veuillez suivre ces étapes :",
+    "emailDeletionRequest": "Envoyez-nous un e-mail à contact@andralude.com depuis l'adresse email utilisée pour créer votre compte sur Secret Friend. Votre demande doit clairement indiquer votre souhait de suppression de vos données personnelles.",
+    "identityVerification": "Joignez à votre e-mail une preuve d'identité pour confirmer que vous êtes bien le propriétaire du compte concerné. Cette mesure est nécessaire pour éviter toute action non autorisée sur votre compte.",
+    "dataDeletionScope": "Données concernées par la suppression :",
+    "savedPersonalInfo": "Informations personnelles sauvegardées : Cela inclut votre nom, prénom, email, entreprise, genre, hobbies, et profession.",
+    "sentMessages": "Messages envoyés : Tous les messages que vous avez envoyé lors de discussions dans l'application.",
+    "importedMedia": "Documents et médias importés : Les photos de profil et toutes pièces jointes que vous avez importées dans l'application.",
+    "identityProofData": "Informations fournies pour prouver l'identité : Les données que vous fournissez dans le cadre de votre demande de suppression seront également effacées une fois la procédure terminée.",
+    "processingTime": "Délai de traitement :",
+    "deletionConfirmation": "Nous nous engageons à effectuer la suppression de vos données dans un délai de 30 jours à compter de la réception de votre demande complète et validée. Une fois la suppression effectuée, nous vous enverrons une confirmation par e-mail."
+  }
 }
